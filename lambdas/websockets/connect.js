@@ -3,6 +3,7 @@ const Dynamo = require('../common/Dynamo');
 
 const tableName = process.env.tableName;
 
+
 exports.handler = async event => {
     console.log('event', event);
 
